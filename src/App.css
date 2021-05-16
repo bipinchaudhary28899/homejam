@@ -4,8 +4,9 @@
 }
 .background {
   background-image:url(picture/Rectangle\ 157\ \(1\).png);
+  background-size: contain;
   width:100%;
-  height:120vh;
+
 }
 
 .container {
@@ -15,7 +16,7 @@
 }
 .overlay {
   width: 100%;
-  height: 140vh;
+  height: 130vh;
   background: linear-gradient(
     180deg,
     rgba(5, 11, 20, 0.28) 0%,
