@@ -94,13 +94,13 @@ color: #0259EB;
 .frimage{
     width: 40px;
     height:40px;
-    background-image: url("C:\Users\dell\Desktop\project\homejam\src\picture\Ticket.png");
+    /* background-image: url("C:\Users\dell\Desktop\project\homejam\src\picture\Ticket.png"); */
     position:absolute;
     top:10px;
     right: 10px;
 }
 .frimage:hover{
-    background-image: url("C:\Users\dell\Desktop\project\homejam\src\picture\Ticket (2).png");
+    /* background-image: url("C:\Users\dell\Desktop\project\homejam\src\picture\Ticket (2).png"); */
 }
 .vertical{
     background:white;
