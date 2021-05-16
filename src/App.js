@@ -11,8 +11,8 @@ function App() {
     <div className="App">
       <div className="background">
         <div className="overlay">
+        <NavBar />
           <div className="container">
-            <NavBar />
             <Front />
             <Genre />
             <UpcomingShows />

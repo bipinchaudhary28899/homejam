@@ -12,8 +12,8 @@ const Reviews = () => {
     <div className="Reviews">
       <div className="Reviews_heading">
         <h1 className="Reviews_heading_left">Reviews</h1>
+        <div className="horizontal"></div>
         <div className="Reviews_heading_right">
-          <div className="horizontal"></div>
           <p className="page">1/12</p>
           <img className="leftarrow" src={left}></img>
           <img className="rightarrow" src={right}></img>

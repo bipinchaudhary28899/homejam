@@ -84,3 +84,18 @@ letter-spacing: 0em;
 text-align: left;
 
 }
+@media screen and (max-width:468px){
+    .reviewCard_Container{
+        width:90vw;
+        margin:10px 0;
+    }
+    .reviewCard_front{
+     width: 97%;
+     }   
+    .reviewCard_background{
+        width:97%;
+    }
+    .reviewCard_front_bottom{
+        width: 92%;
+    }
+}
