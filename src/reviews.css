@@ -1,0 +1,53 @@
+.Reviews{
+    display:flex;
+    flex-direction: column;
+    margin:100px 0 0 0;
+}
+.Reviews_container{
+    display: flex;
+    flex-direction:row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.Reviews_heading{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    color:white;
+    position: relative;
+}
+.Reviews_heading_right{
+    display: flex;
+    flex-direction: row;
+    
+}
+.Reviews_heading_right img{
+    width:19px;
+    height:14px;
+    position: absolute;
+    top:23px;
+    
+}
+.page{
+    margin:20px 80px 0 0;
+}
+.leftarrow{
+    
+    right:44px;
+}
+.rightarrow{
+    
+    right:16px;
+}
+.Reviews_heading_left{
+    font-family: Libre Baskerville;
+font-style: normal;
+font-weight: normal;
+font-size: 32px;
+line-height: 40px;
+color:white;
+height: 40px;   
+}
+.new{
+    height:100px;
+}

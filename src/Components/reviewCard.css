@@ -1,0 +1,86 @@
+.reviewCard_Container{
+    width: 330px;
+    height:250px;
+    position:relative;
+    margin:10px;
+}
+.reviewCard_background{
+    position: absolute;
+    top: 0;
+    right: 0;
+    background: linear-gradient(143.63deg, #276C73 5.43%, #5293E8 110.6%);
+    border-radius: 8px;
+    width:322px;
+    height:242px;
+}
+.reviewCard_front{
+    z-index:2;
+    width:322px;
+    height:242px;
+    border-radius: 8px;
+    background-color: #111229;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    display:flex;
+    flex-direction:column;
+    padding: 0 0 0 0;
+}
+.reviewCard_front_top{
+    display:flex;
+    flex-direction:row;
+    margin:36px 0 0 24px;
+}
+.reviewCard_detail{
+    display:flex;
+    flex-direction:column;
+}
+.reviewCard_info{
+    display:flex;
+    flex-direction:row;
+}
+.reviewCard_name{
+    color:white;
+    margin:0 0 0 0;
+    text-align: left;
+    font-family: Quattrocento;
+font-size: 16px;
+font-style: normal;
+font-weight: 100;
+line-height: 32px;
+letter-spacing: 0em;
+text-align: left;
+
+}
+.reviewCard_pic{
+    margin:0 20px 0 0;
+}
+.reviewCard_countryflag{
+    height:20px;
+    width:20px;
+    margin:0 5px 0 0;
+}
+.reviewCard_countryname{
+    color: #E5C558;
+    
+font-size: 11px;
+font-style: normal;
+font-weight: 100;
+line-height: 16px;
+letter-spacing: 0em;
+text-align: left;
+
+}
+.reviewCard_front_bottom{
+    margin:0 0 0 24px;
+    width:280px;
+    color:white;
+  
+font-size: 16px;
+font-style: normal;
+
+line-height: 24px;
+letter-spacing: 0em;
+text-align: left;
+
+}

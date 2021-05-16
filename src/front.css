@@ -1,0 +1,37 @@
+#frontContainer {
+    height: 100vh;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+  }
+  #heading {
+    margin: 208px 0 0 0;
+    font-family: Libre Baskerville;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 80px;
+    line-height: 96px;
+    /* identical to box height, or 120% */
+  
+    display: flex;
+    align-items: center;
+  
+    color: #ffffff;
+    width:383px;
+  }
+  #about {
+    width: 40vw;
+    min-width: 400px;
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 32px;
+    /* or 133% */
+  
+    color: #ffffff;
+  
+    opacity: 0.6;
+  }
+  

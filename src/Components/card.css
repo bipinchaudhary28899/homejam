@@ -1,0 +1,114 @@
+.card_Container{
+    width:250px;
+    height:400px;
+    position:relative;
+    margin:10px;
+}
+.card_background{
+    position: absolute;
+    top: 0;
+    right: 0;
+    background: linear-gradient(163.41deg, #301A68 0.11%, #234C97 170.69%);
+    border-radius: 8px;
+    width:242px;
+    height:392px;
+}
+.card_front{
+    z-index:2;
+    width:242px;
+    height:392px;
+    border-radius: 8px;
+    background-color: #111229;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+.card_front>img{
+    width:242px;
+    height:230px;
+}
+.detail{
+    padding:0 0 0 16px;
+}
+.detail_label{
+    background: #E5C558;
+    width:fit-content;
+    height:18px;
+    text-align: center;
+    font-size: 12px;
+    font-weight: 600;
+    font-family:sans-serif;
+    color: #682F26;
+    padding:0 0 0 0;
+    margin:20px 0 0 0;
+
+}
+.detail_label p{
+    margin:0 5px 0 5px;
+}
+.detail_name{
+    font-family: Libre Baskerville;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 32px;
+    letter-spacing: 0em;
+    text-align: left;
+    color:white;
+    margin-bottom:0;
+    
+}
+.card_footer{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.footer_left,.footer_right{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    position:relative;
+
+}
+.footer_left,.footer_right:hover{
+    cursor: pointer;
+}
+
+.moreinfo{
+    font-family:sans-serif;
+font-size: 16px;
+font-style: normal;
+font-weight: 200;
+line-height: 32px;
+letter-spacing: 0em;
+text-align: left;
+color: #0259EB;
+}
+.footer_left img{
+    position:absolute;
+    top: 25px;
+    left:80px;
+    width:19px;
+    height:14px;
+}
+.frimage{
+    width: 40px;
+    height:40px;
+    background-image: url("C:\Users\dell\Desktop\project\homejam\src\picture\Ticket.png");
+    position:absolute;
+    top:10px;
+    right: 10px;
+}
+.frimage:hover{
+    background-image: url("C:\Users\dell\Desktop\project\homejam\src\picture\Ticket (2).png");
+}
+.vertical{
+    background:white;
+    height:32px;
+    width: 1px;
+    opacity:0.1;
+    position:absolute;
+    top: 15px;
+    right:60px;
+}
+

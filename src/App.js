@@ -1,10 +1,25 @@
+import NavBar from "./navbar";
+import "./App.css";
+import Front from "./front";
+import Genre from "./genre";
+import Reviews from "./reviews";
+import UpcomingShows from "./upcomingShows";
 
-import './App.css';
 
 function App() {
   return (
     <div className="App">
-     <h1>bipin</h1>
+      <div className="background">
+        <div className="overlay">
+          <div className="container">
+            <NavBar />
+            <Front />
+            <Genre />
+            <UpcomingShows />
+            <Reviews />
+          </div>
+        </div>
+      </div>
     </div>
   );
 }

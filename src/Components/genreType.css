@@ -1,0 +1,45 @@
+.circle_container{
+    position: relative;
+}
+.circle{
+    color:white;
+    width: 200px;
+    height: 200px;
+    display: flex;
+    flex-direction:column;
+    justify-content:center;
+    border-radius: 50%;
+    opacity: 0.2;
+    border: 1px solid white;
+    box-sizing: border-box;
+    margin:10px;
+}
+.circle div{
+    color: #0259EB;
+
+}
+.count{
+    font-size:24px;
+    font-family:Libre Baskerville;
+    line-height:32px;
+    align-items:center;
+    margin: 0;
+    color: white;
+}
+.label{
+    margin:0;
+    color:white;
+    
+}
+.progress{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 200px;
+    width: 200px;
+    border-radius: 0px 150px 150px 150px;
+    border-right:2px solid #DD4CAC;
+    border-bottom:2px solid #DD4CAC;
+    background-color: transparent;
+}
