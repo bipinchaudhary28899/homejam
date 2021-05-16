@@ -4,8 +4,9 @@
 }
 .background {
   background-image:url(picture/Rectangle\ 157\ \(1\).png);
-  background-size: contain;
+  background-size: cover;
   width:100%;
+ 
 
 }
 
