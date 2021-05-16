@@ -15,19 +15,19 @@ import React, { Component } from 'react';
       <nav>
       <img src={Logo} />
       <div id="right_nav">
-        <div className="searchContainer mobile_view">
+        <div className="searchContainer ">
           <div className="searchBox">
             <Search />
             <input placeholder="Search" type="text" />
           </div>
         </div>
-        <IconButton className="mobile_view">
+        <IconButton >
           <p>Help</p>
         </IconButton>
-        <IconButton className="mobile_view">
+        <IconButton >
           <p>Account</p>
         </IconButton>
-        <IconButton className="mobile_view">
+        <IconButton >
           <img src={bagLogo} />
         </IconButton>
         
